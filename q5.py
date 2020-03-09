@@ -42,7 +42,13 @@ class AuthorClassifier:
 #         print(y_pred.shape)
         return y_pred
         
-        
+#Use below code as the activating function(calling function) for above code:
+'''
+from q5 import AuthorClassifier as ac
+auth_classifier = ac()
+auth_classifier.train('./Datasets/q5/train.csv') # Path to the train.csv will be provided
+predictions = auth_classifier.predict('./Datasets/q5/test.csv') # Path to the test.csv will be provided
+'''
 
             
 
